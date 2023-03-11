@@ -9,6 +9,6 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features={"Features/bolttech.feature"},
-        glue = "StepDefinitions/StepDefinitions"
+        glue = "StepDefinitions"
 )
 public class TestRunner { }
