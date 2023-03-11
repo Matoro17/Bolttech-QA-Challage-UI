@@ -56,8 +56,8 @@ public class StepDefinitions {
 
         chromeOptions.addArguments("--no-sandbox");
         chromeOptions.addArguments("--remote-allow-origins=*");
-//        chromeOptions.addArguments("--headless");
-//        chromeOptions.addArguments("disable-gpu");
+        chromeOptions.addArguments("--headless");
+        chromeOptions.addArguments("disable-gpu");
         driver = new ChromeDriver(chromeOptions);
         driver.get("https://www.bolttech.co.th/en/ptgroup/device-protection?utm_source=ptgroup&utm_customer=123123123123132");
 
